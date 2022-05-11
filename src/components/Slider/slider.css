@@ -1,0 +1,85 @@
+.slider{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.slider-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.slider-top{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex: 3;
+    text-align: start;
+    width: 100%;
+}
+.stl{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.slider-heading{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.slider-subheading{
+    margin-bottom: 40px;
+    margin-left: 5px;
+}
+.stc{
+    flex: .5;
+    border: 1px solid pink;
+}
+.str{
+    flex: .5;
+    border: 1px solid white;
+}
+.slider-bottom{
+    height: 150px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex: 3;
+    width: 100%;
+}
+
+.sbl{
+    flex: .5;
+    background-color: orange;
+    height: 160px;
+}
+.sbr{
+    flex: 2.5;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.ntexcon-logo{
+    height: 40px;
+}
+.osbl-logo{
+    height: 40px;
+}
+.kent-logo{
+    height: 40px;
+}
+.redden-logo{
+    height: 40px;
+}
