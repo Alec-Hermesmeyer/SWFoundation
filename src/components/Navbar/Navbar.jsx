@@ -24,9 +24,10 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="right">
-                <FacebookIcon />
-                <LinkedInIcon />
-                <LocalPhoneIcon />
+                
+                <FacebookIcon className='nav-icon'/>
+                <LinkedInIcon className='nav-icon'/>
+                <LocalPhoneIcon className='nav-icon'/>
             </div>
         </div>
     </div>

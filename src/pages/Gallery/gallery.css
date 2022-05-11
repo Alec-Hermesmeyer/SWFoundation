@@ -1,0 +1,30 @@
+.item{
+    height: 25rem;
+    width: 15rem;
+    padding: 10px;
+}
+.item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.outer-container{
+    margin: 5% 0%;
+}
+.gallery-title{
+    height: 70px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

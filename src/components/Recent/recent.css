@@ -1,0 +1,25 @@
+.recent-container{
+    height: 300px;
+    background-color: white;
+    margin-top: 2.5%;
+}
+
+.recent-heading{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2.5%;
+    margin-top: 1.5%;
+}
+.recent-inner-container{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+}
+.recent-item{
+    height: 30px;
+}
+.recent-item img{
+    height: 30px;
+}
