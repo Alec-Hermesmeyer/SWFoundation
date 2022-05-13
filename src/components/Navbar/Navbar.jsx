@@ -1,6 +1,6 @@
 import React from 'react'
 import './navbar.css'
-import swlogo from '../../assets/swlogo.png';
+import swlogo from '../../assets/swlogo-white.svg';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
@@ -25,7 +25,7 @@ const Navbar = () => {
             </div>
             <div className="right">
                 
-                <FacebookIcon className='nav-icon'/>
+                <a href='https://www.facebook.com/SWFoundationContractors'><FacebookIcon className='nav-icon'/></a>
                 <LinkedInIcon className='nav-icon'/>
                 <LocalPhoneIcon className='nav-icon'/>
             </div>

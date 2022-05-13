@@ -1,7 +1,6 @@
 .si-outer-container{
     height: 455px;
     width: 100%;
-    background-color: black;
     margin-bottom: 10px;
     
 }
@@ -25,6 +24,7 @@
     width: 100%;
     object-fit: cover;
     border-radius: 10%;
+    filter: drop-shadow(10px 10px 8px black);
 } 
 .si-inner-container-item button{
     position: relative;
@@ -45,9 +45,9 @@
     display: flex;
     height: 70px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     flex: 3;
-    color: white;
+    color: black;
     justify-content: space-between;
 }
 .si-left{
@@ -64,4 +64,24 @@
     flex: 1;
     margin-left: 3%;
     font-weight: bold;
+}
+.service-button{
+    display: flex;
+    position: absolute;
+    height: 10px;
+    width: 100%;
+}
+.service-info-button{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #ffd600;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 5px;
 }

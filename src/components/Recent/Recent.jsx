@@ -6,7 +6,11 @@ const Recent = () => {
   return (
     <div className='recent'>
         <div className="recent-container">
-            <h2 className="recent-heading">Our Recent Clients</h2>
+            <div className="recent-top">
+            <h4 className='recent-subheading'>Family Owned and Operated</h4>
+            <h2 className="recent-heading">OUR RECENT CLIENTS</h2>
+            <h4 className='recent-subheading-2'>Since 1986</h4>
+            </div>
             <div className="recent-inner-container">
                 {logo.map(image => {
                     return (

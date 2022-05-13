@@ -1,158 +1,90 @@
 
-.home-intro-container{
-    display: flex;
-    flex: 6;
-    height: 400px;
-    margin-top: 0px;
-    background-image: url(../../assets/drill3.jpeg);
-    filter: brightness(50%);
-    object-fit: cover;
-    z-index: 1;
+.header-bg{
+    height: 500px;
+    background-image: url(../../assets/Pier-Drilling-Safely.jpg);
+    filter: grayscale(20%);
+    background-position: right .3%;
+    font-family: 'Staatliches', cursive;
 }
-
-.left-home{
+.header-bg h1{
     display: flex;
-    flex-direction: column;
-    color: white;
-    z-index: 10;
-    filter: brightness(100%);
-    position: absolute;
-}
-.left-home h1{
-    position: relative;
-    left: -140px;
-    top: -100px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
     font-size: 40px;
-}
-.left-home h3{
-    font-size: 25px;
-    position: relative;
-    left: -140px;
-    top: -70px;
-}
-.left-home h4{
-    font-weight: bold;
-    font-size: 22.5px;
-    position: relative;
-    left: -140px;
-    top: -40px;
-}
-.left-home button{
-    color: black;
-    background-color: #ffd600;
-    align-items: center;
-    /* height: 60px;
-    width: 80px; */
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 17px;
-    padding-bottom: 16px;
-    font-family: 'Raleway' sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    width: 180px;
-    right: -40px;
-    
-}
-.center-home{
-    flex: 1.5;
-    width: 100%;
-}
-.center-home-img{
-    height: 400px;
-    width: 100%;
-}
-.right-home{
-    flex: 1.5;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
-.img-container-home-right{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-}
-.top-container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    flex: 5;
-    align-items: center;
-    justify-content: center;
-}
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
 
-.top-title h3{
-    margin-top: 30px;
+    0 0 102px #fff,
+    0 0 151px #fff;
 }
-.right-top-top{
-    flex: 1;
-}
-.right-top-center{
-    flex: 1;
-}
-.right-top-lc{
-    flex: 1;
-}
-.right-top-bottom{
-    flex: 1;
-}
-.redden-logo{
-    margin-left: 25px;
-}
-.osbl-logo{
-    margin-right: 20px;
-}
-.intro-bottom{
-    height: 200px;
+.header-bg h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-evenly;
-    flex: 4;
-    
-    
+    padding-top: 1.5%;
+    font-size: 30px;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #fff,
+    0 0 82px #fff,
+    0 0 92px #fff,
+    0 0 102px #fff,
+    0 0 151px #fff;
 }
-.intro-bottom-left{
+.buttons-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 3;
+    width: 100%;
+    padding-top: 7%;
+}
+.buttons-left{
+    flex: 1;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
+    justify-content: center;
+}
+.buttons-center{
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.whitespace{
-    flex: .15;
+.buttons-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.intro-bottom-left-text{
-    font-weight: bold;
-
-}
-.intro-bottom-left-img{
-    /* margin-top: 30px;
-    margin-left: -25px; */
-    height: 20px;
-    width: 70px;
-}
-.slash{
-    height: 200px;
-    width: 5px;
+.media-button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #ffd600;
-    margin-bottom: 20px;
-    z-index: 10;
-    filter: drop-shadow(14px 14px 10px black);
-}
-.intro-bottom-center{
-    flex: 1;
-    font-weight: bold;
-    text-align: center;
-    /* margin-bottom: 50px; */
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
 }
 
-.intro-bottom-right{
-    flex: 1;
-    text-align: center;
+.quote-button{
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffd600;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: 'Staatliches', cursive;
 }
+

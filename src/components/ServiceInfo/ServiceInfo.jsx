@@ -10,7 +10,6 @@ const ServiceInfo = () => {
                 return (
                     <div className='si-inner-container-item'>
                         <img src={image} alt="" />
-                        <button className="si-btn">more info</button>
                     </div>
                 )
             })}
@@ -21,6 +20,9 @@ const ServiceInfo = () => {
                 <div className="si-left"><h4>Texas Commercial Drilling Services</h4></div>
                 <div className="si-center"><h4>Turnkey Drilling Solutions</h4></div>
                 <div className="si-right"><h4>Limited-Access Pier Drilling</h4></div>
+            </div>
+            <div className="service-button">
+                <button className="service-info-button">Learn More</button>
             </div>
     </div>
   )
