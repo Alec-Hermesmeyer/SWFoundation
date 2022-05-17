@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
 
+// import TitlebarImageList from "./components/new/New";
+
 import { Home } from "./pages";
 
 
@@ -9,6 +11,7 @@ function App() {
     <div className="App">
       <Home />
       {/* <Gallery /> */}
+      {/* <TitlebarImageList /> */}
       
     </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Navbar, Recent } from '../../components'
+import { Navbar, Recent, ServiceInfo, Stripe, Footer } from '../../components'
 import './home.css'
 
 
@@ -20,6 +20,13 @@ const Home = () => {
         </div>
       </div>
       <Recent />
+      <ServiceInfo />
+      <Stripe />
+      <div className='stripe-text'>
+        <h3>Join the family</h3>
+        <h4>Email: CliffW@SWFoundation.com</h4>
+      </div>
+      <Footer />
     </div>
   )
 }

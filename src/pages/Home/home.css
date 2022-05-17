@@ -1,43 +1,46 @@
 
 .header-bg{
     height: 500px;
-    background-image: url(../../assets/Pier-Drilling-Safely.jpg);
+    background-image: url(../../assets/background-1.png);
     filter: grayscale(20%);
-    background-position: right .3%;
+    background-position: right .3%  top 50%;
     font-family: 'Staatliches', cursive;
 }
 .header-bg h1{
     display: flex;
+    color: white;
     align-items: center;
     justify-content: center;
     padding-top: 10%;
     font-size: 40px;
     text-shadow:
-    0 0 7px #fff,
+    0 0 7px #000,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px #fff,
-    0 0 82px #fff,
-    0 0 92px #fff,
+    0 0 42px #000,
+    0 0 82px #000,
+    0 0 92px #000,
 
-    0 0 102px #fff,
-    0 0 151px #fff;
+    0 0 102px #000,
+    0 0 151px #000;
 }
 .header-bg h2{
     display: flex;
     align-items: center;
+    color: white;
     justify-content: center;
     padding-top: 1.5%;
     font-size: 30px;
     text-shadow:
-    0 0 7px #fff,
+    0 0 7px #000,
     0 0 10px #fff,
     0 0 21px #fff,
-    0 0 42px #fff,
-    0 0 82px #fff,
-    0 0 92px #fff,
-    0 0 102px #fff,
-    0 0 151px #fff;
+    0 0 42px #000,
+    0 0 82px #000,
+    0 0 92px #000,
+
+    0 0 102px #000,
+    0 0 151px #000;
 }
 .buttons-header{
     display: flex;
@@ -75,6 +78,7 @@
     border: 1px solid black;
     border-radius: 5px;
     font-family: 'Staatliches', cursive;
+    filter: drop-shadow(8px 8px 4px black);
 }
 
 .quote-button{
@@ -86,5 +90,27 @@
     border: 1px solid black;
     border-radius: 5px;
     font-family: 'Staatliches', cursive;
+    filter: drop-shadow(8px 8px 10px black);
 }
 
+.stripe-text h3{
+    position: relative;
+    color: black;
+    bottom: 300px;
+    font-size: 40px;
+    margin-left: 2.5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    
+}
+.stripe-text h4{
+    position: relative;
+    color: black;
+    bottom: 250px;
+    font-size: 40px;
+    margin-left: 2.5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+}

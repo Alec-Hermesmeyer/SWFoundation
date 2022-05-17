@@ -1,0 +1,10 @@
+.stripe-container{
+    height: 400px;
+    background-position: right .2%;
+    filter: brightness(50%);
+    margin-top: -30px; 
+    position: sticky;
+    z-index: 10;
+    filter: drop-shadow(18px 10px 20px #ffd600);
+    
+}

@@ -1,6 +1,8 @@
 .recent-container{
     height: 80px;
     background-color: black;
+    z-index: 2;
+    filter: drop-shadow(10px 10px 20px #ffd600);
 }
 .recent-top{
     display: flex;

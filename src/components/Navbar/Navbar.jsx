@@ -17,9 +17,11 @@ const Navbar = () => {
             <div className="center">
                 <ul className="menu">
                     <li className="menuitem">Home</li>
-                    <li className="menuitem">About Us</li>
-                    <li className="menuitem">Contact Us</li>
+                    <li className="menuitem">About</li>
+                    <li className="menuitem">Contact</li>
                     <li className="menuitem">Services</li>
+                    <li className="menuitem">Gallery</li>
+                    <li className="menuitem">Blog</li>
                     <li className="menuitem">Jobs</li>
                 </ul>
             </div>
