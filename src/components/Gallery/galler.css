@@ -1,0 +1,15 @@
+.gallery-container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin-top: 530px;
+}
+.gallery-images{
+    margin-bottom: 200px;
+}
+.footer{
+    position: relative;
+    z-index: 20;
+    bottom: -320px;
+}
+

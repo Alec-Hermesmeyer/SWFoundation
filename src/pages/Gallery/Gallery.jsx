@@ -1,13 +1,21 @@
 import React from 'react'
-import { Navbar, TitlebarImageList } from '../../components'
+import { Footer, Navbar, TitlebarImageList } from '../../components'
 
 const Gallery = () => {
   return (
-    <div>
+    <div className='Gallery-Page'>
+      <div className="header">
       <Navbar />
-      <section>
+      </div>
+     
+      <section className='gallery-images'>
+        <div className="gallerywrapper">
       <TitlebarImageList />
+      </div>
       </section>
+      <div className='footer'>
+        <Footer />
+      </div>
     </div>
   )
 }

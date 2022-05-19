@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Navbar, Recent, ServiceInfo, Stripe, Footer } from '../../components'
 import './home.css'
 
@@ -12,10 +13,10 @@ const Home = () => {
         <h2 className='header-text'>DFW'S most trusted choice for all foundation drilling</h2>
         <div className="buttons-header">
           <div className="buttons-left">
-            <button className='media-button'>Learn More</button>
+            <Link to='/services'><button className='media-button'>Learn More</button></Link>
           </div>
           <div className="buttons-center">
-            <button className="quote-button">Get A Quote</button>
+            <Link to='/contact'><button className="quote-button">Get A Quote</button></Link>
           </div>
         </div>
       </div>

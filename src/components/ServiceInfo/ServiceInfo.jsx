@@ -25,7 +25,7 @@ const ServiceInfo = () => {
                             <li className="">Pressure Grouting</li>
                             <li className="">Engineered Design/Build</li>
                         </ul>
-                        <button>get an estimate</button>
+                        <Link to='/contact'><button>get an estimate</button></Link>
                     </div>
 
                 </div>
