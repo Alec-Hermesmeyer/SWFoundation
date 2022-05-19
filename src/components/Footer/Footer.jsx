@@ -3,6 +3,7 @@ import './footer.css';
 import swlogo from '../../assets/swlogo-white.svg';
 import adsc from '../../assets/adsc1.png';
 import fra from '../../assets/fra-logo-white.png';
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -10,12 +11,13 @@ const Footer = () => {
             <div className="footer-wrapper">
                 <div className="footer-left">
                     <ul className="footer-menu">
-                        <li className="footer-menu-item">Home</li>
-                        <li className="footer-menu-item">About</li>
-                        <li className="footer-menu-item">Contact</li>
-                        <li className="footer-menu-item">Service</li>
-                        <li className="footer-menu-item">Jobs</li>
-                        <li className="footer-menu-item">Blog</li>
+                    <Link style={{textDecoration: 'none'}} to='/'><li className="menuitem">Home</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/about'><li className="menuitem">About</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/contact'><li className="menuitem">Contact</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/services'><li className="menuitem">Services</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/gallery'><li className="menuitem">Gallery</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/blog'><li className="menuitem">Blog</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/jobs'><li className="menuitem">Jobs</li></Link>
                     </ul>
                 </div>
                 <div className="footer-center">

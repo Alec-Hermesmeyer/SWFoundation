@@ -1,7 +1,8 @@
 import React from 'react'
 import './serviceinfo.css'
 import drill4 from '../../assets/drill4.jpeg';
-import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import { Link } from 'react-router-dom';
+// import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
 
 
 const ServiceInfo = () => {
@@ -30,7 +31,7 @@ const ServiceInfo = () => {
                 </div>
                 <div className="si-bottom">
                     <div className="si-bottom-icon"><h1>Recent Projects</h1>
-                    <span className="arrow-icon"> <h1>>></h1></span>
+                    <span className="arrow-icon"> <Link style={{textDecoration: 'none'}} to='/gallery'><h1>>></h1></Link></span>
                     </div>
                 </div>
             </div>

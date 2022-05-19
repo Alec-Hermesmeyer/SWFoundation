@@ -1,2 +1,9 @@
 export {default as Home} from './Home/Home';
 export {default as Gallery} from './Gallery/Gallery';
+export {default as Blog} from './Blog/Blog';
+export {default as CreatePost} from './CreatePost/CreatePost';
+export {default as Login} from './Login/Login';
+export {default as About} from './About/About';
+export {default as Jobs} from './Jobs/Jobs';
+export {default as Services} from './ServicesPage/Services';
+export {default as Contact} from './Contact/Contact';

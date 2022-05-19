@@ -1,5 +1,6 @@
 import React from 'react'
 import './navbar.css'
+import { Link } from 'react-router-dom';
 import swlogo from '../../assets/swlogo-white.svg';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -16,13 +17,13 @@ const Navbar = () => {
             </div>
             <div className="center">
                 <ul className="menu">
-                    <li className="menuitem">Home</li>
-                    <li className="menuitem">About</li>
-                    <li className="menuitem">Contact</li>
-                    <li className="menuitem">Services</li>
-                    <li className="menuitem">Gallery</li>
-                    <li className="menuitem">Blog</li>
-                    <li className="menuitem">Jobs</li>
+                    <Link style={{textDecoration: 'none'}} to='/'><li className="menuitem">Home</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/about'><li className="menuitem">About</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/contact'><li className="menuitem">Contact</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/services'><li className="menuitem">Services</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/gallery'><li className="menuitem">Gallery</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/blog'><li className="menuitem">Blog</li></Link>
+                    <Link style={{textDecoration: 'none'}} to='/jobs'><li className="menuitem">Jobs</li></Link>
                 </ul>
             </div>
             <div className="right">

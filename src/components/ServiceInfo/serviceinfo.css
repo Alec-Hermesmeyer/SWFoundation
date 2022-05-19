@@ -1,3 +1,7 @@
+Link{ 
+    text-decoration: none;
+}
+
 .si-container{
     height: 935px;
     border-top: 4px solid #000;
@@ -162,7 +166,10 @@
 
     0 0 102px #ffd600,
     0 0 151px #ffd600;
+    text-decoration: none;
+    
 }
+
 span{
     height: 50px;
 }

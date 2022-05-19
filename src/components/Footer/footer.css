@@ -36,6 +36,7 @@
 }
 .footer-left li{
     margin-bottom: 15px;
+    cursor: pointer;
 }
 .footer-center{
     flex: 1;

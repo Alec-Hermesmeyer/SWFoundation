@@ -1,0 +1,26 @@
+.PostPage{
+    height: 100vh;
+    width: 100vw;
+
+}
+.cp-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cp-container h1{
+    margin-bottom: 20px;
+}
+.inputgp{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.inputgp label{
+    margin-right: 10px;
+}
+button{
+    cursor: pointer;
+}

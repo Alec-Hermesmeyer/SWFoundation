@@ -1,0 +1,19 @@
+.post-container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+}
+.post-card{
+    height: 300px;
+    width: 300px;
+    color: black;
+}
+.post-title{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
