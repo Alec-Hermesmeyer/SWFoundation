@@ -1,37 +1,6 @@
 .blog-page{
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
-    margin-bottom: 20px;
+    margin-top: 0;
 }
-.log-create{
-    height: 300px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-   justify-content: space-evenly;
-   margin-bottom: 20px;
-   background-color: blanchedalmond;
-   flex: 2;
-    
-}
-.log-create-left h1{
-    position: relative;
-    bottom: 15px;
-    left: 100px;
-}
-.log-create-left .login-icons{
-    position: relative;
-    top: 15px;
-    left: 110px;
-}
-.log-create-right .login-icons{
-    position: relative;
-    right: 40px;
-    top: 15px;
-}
-.log-create-right h1{
-    position: relative;
-    bottom: 15px;
-    right: 105px;
-}
+

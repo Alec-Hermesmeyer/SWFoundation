@@ -1,12 +1,12 @@
+.about-page{
+    height: 200vh;
+    width: 100vw;
+}
 
-.header-bg{
+.stripe-bg{
     height: 500px;
     background-image: url(../../assets/background-1.png);
     filter: grayscale(20%);
     background-position: right .3%  top 50%;
-    font-family: 'Staatliches', cursive;
-    
+    margin-top: -7.5%;
 }
-
-
-

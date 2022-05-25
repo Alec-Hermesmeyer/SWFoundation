@@ -6,7 +6,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 2;
 }
 .footer-wrapper{
     display: flex;
@@ -71,4 +70,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     margin-top: 80px;
+}
+.footer-menu{
+    color: white;
 }

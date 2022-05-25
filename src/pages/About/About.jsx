@@ -1,11 +1,15 @@
 import React from 'react'
-import { Navbar } from '../../components'
+import { Navbar, Recent, AboutHero } from '../../components'
+import './about.css';
 
 const About = () => {
   return (
-    <div>
-        <Navbar />
-        <section>About</section>
+    <div className='about-page'>
+        <header><Navbar /></header>
+        <div className="stripe-bg"></div>
+        <Recent />
+        <AboutHero />
+        
     </div>
   )
 }

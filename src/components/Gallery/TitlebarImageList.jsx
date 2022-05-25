@@ -10,7 +10,7 @@ import './galler.css'
 export default function TitlebarImageList() {
   return (
   <div className='gallery-container'>
-    <ImageList sx={{ width: 1000, height: 700, marginLeft: 20 }}>
+    <ImageList sx={{ width: 400, height: 200, marginLeft: 20 }}>
       <ImageListItem key="Subheader" cols={2}>
         <ListSubheader sx={{textAlign: 'center', fontSize: 30}} component="div">Recent Projects</ListSubheader>
       </ImageListItem>

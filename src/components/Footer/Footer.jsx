@@ -10,15 +10,15 @@ const Footer = () => {
         <div className="footer-container">
             <div className="footer-wrapper">
                 <div className="footer-left">
-                    <ul className="footer-menu">
-                    <Link style={{textDecoration: 'none'}} to='/'><li className="menuitem">Home</li></Link>
-                    <Link style={{textDecoration: 'none'}} to='/about'><li className="menuitem">About</li></Link>
-                    <Link style={{textDecoration: 'none'}} to='/contact'><li className="menuitem">Contact</li></Link>
-                    <Link style={{textDecoration: 'none'}} to='/services'><li className="menuitem">Services</li></Link>
-                    <Link style={{textDecoration: 'none'}} to='/gallery'><li className="menuitem">Gallery</li></Link>
-                    <Link style={{textDecoration: 'none'}} to='/blog'><li className="menuitem">Blog</li></Link>
-                    <Link style={{textDecoration: 'none'}} to='/jobs'><li className="menuitem">Jobs</li></Link>
-                    </ul>
+                    <ul className="footer-menu" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', cursor: 'pointer'}}>
+                        <Link to='/' style={{color: 'white', cursor: 'pointer' , textDecoration: 'none'}}>Home</Link>
+                        <Link to='/about' style={{color: 'white', cursor: 'pointer' , marginTop: 10, textDecoration: 'none'}}>About</Link>
+                        <Link to='/services' style={{color: 'white', cursor: 'pointer' , marginTop: 10, textDecoration: 'none'}}>Services</Link>
+                        <Link to='/gallery' style={{color: 'white', cursor: 'pointer' , marginTop: 10, textDecoration: 'none'}}>Gallery</Link>
+                        <Link to='/contact' style={{color: 'white', cursor: 'pointer' , marginTop: 10, textDecoration: 'none'}}>Contact</Link>
+                        <Link to='/jobs' style={{color: 'white', cursor: 'pointer' , marginTop: 10, textDecoration: 'none'}}>Join Us</Link>
+                        <Link to='/blog' style={{color: 'white', cursor: 'pointer' , marginTop: 10, textDecoration: 'none'}}>Blog</Link>
+                   </ul>
                 </div>
                 <div className="footer-center">
                     <div className="logo-container">
